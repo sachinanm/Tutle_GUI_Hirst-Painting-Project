@@ -21,6 +21,14 @@ To create our spot painting, we'll follow these steps:
 2. Use the Turtle module to draw 25 random colored dots on the canvas.
 3. Enjoy the beautiful artwork that we've recreated with Python!
 
+## Beware of the Whites! ⚪
+
+While using our `color_list`, there might be some colors at the beginning that are close to white (similar to the background color in the image). These colors might be unnecessary for our spot painting. We can test the color tuples and remove any undesired colors to enhance the visual impact.
+
+Feel free to explore the code and make adjustments to create your unique and colorful spot painting masterpiece! 🌟
+
+Happy painting!
+
 ## Tasks to Enhance the Project 🚀
 
 1. 🔳 **Customizing the Dot Grid:** Experiment with different grid sizes and dot colors. Change the number of dots in the grid, increase or decrease the distance between dots, and use a different color palette for the dots.
