@@ -22,28 +22,23 @@ tim.speed(0)
 tim.hideturtle()
 
 # Set the pen color to a random color from the extracted image colors
-center_x = -150
-center_y = -100
+center_x = 0
+center_y = 0
 
 # Move the turtle to the center position
 tim.penup()
 tim.goto(center_x, center_y)
-tim.pendown()
 
-current_position_y = -100
+current_position_y = 0
 
 # Draw a dot grid using the extracted image colors
 for i in range(10):
     for j in range(10):
-        tim.dot(20, random.choice(image_colors))
-        tim.penup()
-        tim.forward(35)
-        tim.pendown()
+        tim.dot(10, random.choice(image_colors))
+        tim.forward(25)
 
-    tim.penup()
-    current_position_y += 30
-    tim.goto(-150, current_position_y)
-    tim.pendown()
+    current_position_y += 15
+    tim.goto(0, current_position_y)
 
 # Keep the window open until manually closed
 screen.mainloop()
