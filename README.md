@@ -19,7 +19,8 @@ To proceed with this project, make sure you meet the following requirements:
 To create our spot painting, we'll follow these steps:
 1. Extract colors from an image using the Colorgram package.
 2. Use the Turtle module to draw 25 random colored dots on the canvas.
-3. Enjoy the beautiful artwork that we've recreated with Python!
+3. this is based on x and y axis , where x=0 remain same and just y cahnges  after certain n repetation in the line(the the cordinates changes )
+4. Enjoy the beautiful artwork that we've recreated with Python!
 
 ## Beware of the Whites! ⚪
 
