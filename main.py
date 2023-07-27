@@ -25,15 +25,19 @@ tim.hideturtle()
 center_x = 0
 center_y = 0
 
+
 # Move the turtle to the center position
 tim.penup()
 tim.goto(center_x, center_y)
 
 current_position_y = 0
 
+# Get input from the user for the number of rows in the pattern
+num_rows = int(turtle.numinput("Number of Rows", "Enter the number of rows (even number recommended):", default=10))
+
 # Draw a dot grid using the extracted image colors
-for i in range(10):
-    for j in range(10):
+for i in range(num_rows):
+    for j in range(num_rows):
         tim.dot(10, random.choice(image_colors))
         tim.forward(25)
 
